@@ -646,6 +646,10 @@ html {
   width: 100%;
 }
 
+.w-80 {
+  width: 20rem;
+}
+
 .flex-auto {
   flex: 1 1 auto;
 }
@@ -678,6 +682,10 @@ html {
   align-content: flex-end;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-end {
   align-items: flex-end;
 }
@@ -686,12 +694,20 @@ html {
   align-items: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-x-4 {
@@ -796,6 +812,22 @@ html {
   background-image: url('./assets/pictures/wedding.png');
 }
 
+.bg-\[url\(\'\.\/assets\/pictures\/\.jpg\'\)\] {
+  background-image: url('./assets/pictures/.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/pictures\/man\.jpg\'\)\] {
+  background-image: url('./assets/pictures/man.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/pictures\/woman\.jpg\'\)\] {
+  background-image: url('./assets/pictures/woman.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/pictures\/kids\.jpg\'\)\] {
+  background-image: url('./assets/pictures/kids.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -867,6 +899,11 @@ html {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-black {
