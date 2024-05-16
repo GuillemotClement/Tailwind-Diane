@@ -634,8 +634,16 @@ html {
   height: 24rem;
 }
 
+.h-80 {
+  height: 20rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-auto {
@@ -704,6 +712,19 @@ html {
   row-gap: 0.5rem;
 }
 
+.gap-y-4 {
+  row-gap: 1rem;
+}
+
+.gap-y-8 {
+  row-gap: 2rem;
+}
+
+.gap-x-2 {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+
 .rounded-3xl {
   border-radius: 1.5rem;
 }
@@ -767,6 +788,14 @@ html {
   background-image: url('./assets/pictures/product-4.jpg');
 }
 
+.bg-\[url\(\'\.\/assets\/pictures\/wedding\.jpg\'\)\] {
+  background-image: url('./assets/pictures/wedding.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/pictures\/wedding\.png\'\)\] {
+  background-image: url('./assets/pictures/wedding.png');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -783,6 +812,10 @@ html {
   padding: 1.5rem;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -796,6 +829,11 @@ html {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .text-left {
